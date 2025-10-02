@@ -1,0 +1,34 @@
+name: brasil_cripto
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+//BrasilCripto
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  bloc: ^9.0.1
+  sqflite: ^2.4.2
+  http: ^1.5.0
+  path_provider: ^2.1.5
+  dio: ^5.9.0
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
